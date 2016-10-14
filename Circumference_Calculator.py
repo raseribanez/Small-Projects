@@ -1,6 +1,6 @@
 # Ben Woodfield
 # A simple Tkinter program for calculating circumferences
-# Written in Python 2, to use on Python 3 change Tkinter to capitol T in the import line
+# Written in Python 2, to use on Python 3 change Tkinter to small 't' in the import line
 
 #!/usr/bin/env python
 from Tkinter import *
