@@ -1,6 +1,5 @@
 # Magic 8 Ball Style Program - Bare Python Version
-# Original code found online
-# Re-Coded by Ben Woodfield 01/01/2016
+# Ben Woodfield 01/01/2016
 
 import random
 import time
