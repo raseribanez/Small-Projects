@@ -1,4 +1,4 @@
-# Ben Woodfield
+#!/usr/bin/env python
 # A very basic and ugly calculator
 
 #!/usr/bin/env python3.4
