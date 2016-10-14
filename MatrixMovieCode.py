@@ -1,10 +1,9 @@
 # Original code found online / Copied out and edited as learning exercise - see below for original writer info
-# Ben Woodfield
+# Ben Woodfield - Python 2.7.11 - Raspbian
 # Run this from a terminal to see the effect. Can't run it from an editor
-# I did this on Python 2.7.11 on Raspbian machine
 
-""""Create "The Matrix" of binary numbers scrolling vertically in your terminal.
-original code adapted from juancarlospaco:
+""""
+original code from juancarlospaco:
   - http://ubuntuforums.org/showpost.php?p=10306676
 Inspired by the movie: The Matrix
    
