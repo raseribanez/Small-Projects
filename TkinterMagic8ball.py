@@ -1,15 +1,13 @@
-# A re-creation of the standard Python Magic 8 Ball Program
 # Ben Woodfield / Python 2.7 / Learning exercise in Tkinter
-
-# Import the modules needed for this app
+# For Python 3, change 'Tkinter' to 'tkinter'
 import Tkinter
 from Tkinter import *
 import random
 
 # Set up the main (top) window's settings
 top = Tk()
-top.minsize(310,300)
-top.title('Magic 8 Ball - Ben Woodfield')
+top.minsize(270,300)
+top.title('Magic 8 Ball')
 top.configure(bg='Black')
 
 # Put all the answers in one variable [in a tuple]
@@ -55,7 +53,7 @@ def entry_clear():
   userentry2.delete(0,END)
 
 
-# Make the buttons and entry boxes (but not packing them just yet)
+# Make the buttons and entry boxes (but not packing them yet)
 # These are the labels (to display text)
 lbl1 = Label(top, text='Enter Your Question', bg='Black', fg='Red', font='freesansbold, 16')
 lbl2 = Label(top, text='Answer', bg='Black', fg='Red', font='freesansbold, 16')
@@ -64,16 +62,14 @@ lbl3 = Label(top, text='0\n0', bg='Black', fg='Black')
 # These are the two buttons (quit and get-answer)
 btn1 = Button(top, text='Get Answer', bg='darkBlue', fg='Red', font='freesansbold', command=get_answer)
 btn3 = Button(top, text='Reset', bg='darkBlue', fg='Red', font='freesansbold', command=entry_clear)
-btn2 = Button(top, text='Exit', bg='Red', fg='Black', font='freesansbold', command=quit)
-#btn3 = Button(top, text='Reset', command=entry_clear)
+#btn2 = Button(top, text='Exit', bg='Red', fg='Black', font='freesansbold', command=quit)
 
 # This allows a string-variable to be added to the window
 circleVar = StringVar()
 userentry = Entry(top, textvariable=circleVar)
 
 circleVar2 = StringVar()
-userentry2 = Entry(top, bg='Black', fg='Red', font='freesansbold, 12')
-
+userentry2 = Entry(top, bg='Black', fg='Red', font='freesansbold, 12', justify=CENTER)
 
 # Pack everything into the window (in order of appearance unless told otherwise)
 lbl1.pack()
@@ -81,9 +77,9 @@ userentry.pack()
 btn1.pack()
 lbl3.pack()
 lbl2.pack()
-userentry2.pack()
+userentry2.pack(fill=X,expand = True)
 btn3.pack()
-btn2.pack(side=BOTTOM)
+#btn2.pack(side=BOTTOM)
 
 # This loop is needed to actually display the program, and keep it on-screen
 top.mainloop()
