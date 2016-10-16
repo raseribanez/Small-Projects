@@ -23,4 +23,4 @@ e2.grid(row=1, column=1)
 Button(master, text='Quit', fg='Red',  bg='Black', command=quit).grid(row=3, column=0, sticky=W, pady=4)
 Button(master, text='Convert',  fg='Red',  bg='Black', command=show_entry_fields).grid(row=3, column=1, sticky=W, pady=4)    
 
-mainloop( )
+mainloop()
