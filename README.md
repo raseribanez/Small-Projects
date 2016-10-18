@@ -1,4 +1,10 @@
 # Little-Projects
+===================================================================================================================
+
+Requirements to run these little apps: Python 2.7 unless specified otherwise
+
+====================================================================================================================
+
 A collection of basic programs as I progress and learn programming 
 
 Will mostly be Python related projects - Pygame, Tkinter, RPi related stuff
