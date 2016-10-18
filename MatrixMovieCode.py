@@ -84,4 +84,4 @@ if __name__ == '__main__':
             matrix(150)
         except KeyboardInterrupt:
             sys.stdout.write('\n\033[1m\033[32m=== Matrix Stopped ====\033[0m\n')
-            sys.exit()
+            sys.exit() 
