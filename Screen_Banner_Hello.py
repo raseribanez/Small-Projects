@@ -82,4 +82,4 @@ while True:
     if offset <= ((len(message)+2)*6) * -1:
         offset = WIDTH
     #take out or change this line to speed up / slow down the display
-    time.sleep(0.05)
+    time.sleep(0.05) 
