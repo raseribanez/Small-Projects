@@ -13,9 +13,8 @@ These codes are a mixture of different things,
 
 I have been looking at GUI development, and pygame. A few of the calculator related programs have been moved to a Calculator repository, 
 
-I use all of them for real life applications. 
-
 I had problems with the 'Exit' buttons on a few of the Tkinter apps - freezing up, program not responding etc
-I left the lines of code, but commented them out.
+I left the lines of code, but commented them out. I believe it is only my Windows machine causing this as
+I dont get it on Ubuntu or Raspbian
 
 If you use these little apps I welcome any feedback and improvements
