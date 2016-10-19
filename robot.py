@@ -50,3 +50,4 @@ def laby_name_look():
 
 output("start");
 input()
+
