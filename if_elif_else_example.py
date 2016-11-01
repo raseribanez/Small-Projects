@@ -1,5 +1,6 @@
 # Ben Woodfield
 # An example of an if - elif - else statement
+# Change the value of x, then save and run to see the statements in action
 
 x = 1
 
