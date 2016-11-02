@@ -1,3 +1,6 @@
+# Ben Woodfield
+# An example of using if statements
+
 # Variables used in the example if statements
 a = 4
 b = 5
