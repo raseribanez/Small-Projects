@@ -1,3 +1,5 @@
+# Ben Woodfield
+# A simple example of de-crypting a string
 encrypted_text = "Uijt!jt!b!uftu/!BCD!bcd"
  
 plain_text = ""
