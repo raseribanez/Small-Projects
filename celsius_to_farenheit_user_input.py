@@ -1,10 +1,11 @@
-eld
+# Ben Woodfield
 # Convert celsius to farenheit
+# This version asks the user to enter any Celsius value
 
-# change this value for a different result
+# This removes the user input and the celsius value has to be coded before running
 #celsius = 37.5
 
-# Use this method for user input values
+# Use this method to ask the user for a celsius value (remove/comment this line if you prefer the above method)
 celsius = int(input("Enter your Value in Celsius: "))
 
 # calculate fahrenheit
