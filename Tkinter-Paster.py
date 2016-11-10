@@ -1,5 +1,5 @@
 #!usr/bin/env/python
-# Ben Woodfield - An example of how to paste/duplicate a string of text
+# Ben Woodfield - An example of how to paste/duplicate a string of text.
 # For Python 3 change 'Tkinter' to 'tkinter' next line down 
 from Tkinter import *
 
