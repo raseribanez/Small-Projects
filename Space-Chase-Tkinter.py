@@ -1,5 +1,7 @@
 # Space Chase - made in Tkinter for PYTHON £
 # A demonstration of Tkinter instead of Pygame for low-level games
+# I didn't write this, I found it online and thought it was a good demonstration
+# of just what you can achieve with the Tkinter module 
 # Ben Woodfield
 
 from tkinter import *
