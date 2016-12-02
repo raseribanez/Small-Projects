@@ -7,3 +7,7 @@ def greet(name):
 greet('Jack')
 greet('Jill')
 greet('Bob')
+
+# The example shows that if you create this function
+# you can then call it with any argument or name
+# eg: greet('any_name')
