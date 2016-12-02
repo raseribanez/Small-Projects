@@ -1,7 +1,9 @@
-# Original code found online / Copied out and edited as learning exercise - see below for original writer info
+# Original code found online / Copied out and edited as learning exercise - 
+# see below in the triple quotes for original writer info.
 # Ben Woodfield - Python 2.7.11 - Raspbian
-# Run this from a terminal to see the effect. Can't run it from an editor
-
+# Run this from a terminal to see the effect. You Can't run it from an editor
+# Also I had no luck running this on Windows But id works fine on a few 
+# different Linux systems Ive tried (Ubuntu, Kali, Raspbian)
 """"
 original code from juancarlospaco:
   - http://ubuntuforums.org/showpost.php?p=10306676
