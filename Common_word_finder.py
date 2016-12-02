@@ -1,7 +1,8 @@
 # PYTHON CODE FOR FINDING THE MOST COMMON WORD IN A TEXT FILE
 # Ben Woodfield 27/01/2016
 
-name = raw_input('Enter File:')
+# 02/12/2016 I changed raw_input() to input()
+name = input('Enter File:')
 handle = open(name, 'r')
 text = handle.read()
 words = text.split()
