@@ -1,5 +1,8 @@
 # Ben Woodfield
 # An example of using if statements
+# most of what is written here is a collection of examples
+# from worksheets and tutorials, I put them all into files
+# together to use as reference to different ways of doing things
 
 # Variables used in the example if statements
 a = 4
